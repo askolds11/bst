@@ -1,0 +1,9 @@
+menu "SNTP Configuration"
+
+    config SNTP_TIME_SERVER
+        string "SNTP server name"
+        default "pool.ntp.org"
+        help
+            Hostname of the main SNTP server.
+
+endmenu
